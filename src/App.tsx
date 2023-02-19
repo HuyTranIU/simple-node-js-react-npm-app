@@ -8,6 +8,7 @@ const App: FC = () => {
   console.log(fullname)
   return (
     <div>
+      <h1>Hello!!!</h1>
       <img src={reactlogo} alt='React Logo' width={100} height={100} />
       <h1>{fullname}</h1>
       <h2>Bài viết được viết tại blog {process.env.HOST}</h2>
